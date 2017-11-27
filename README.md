@@ -1,14 +1,19 @@
 # Doxity - Simpleton Version
 
 ### Documentation Generator for Solidity Contracts
-### Powered by [Gatsby](https://github.com/gatsbyjs/gatsby)
+##### Powered by [Gatsby](https://github.com/gatsbyjs/gatsby)
 This project is an attempt to create a working version of the [@digix/doxity project](https://github.com/DigixGlobal/doxity).
+
+Additional assistance in this fix was gleaned from [ProjectWyvern](https://github.com/ProjectWyvern/wyvern-ethereum)
 
 ## Getting Started
 
 edit the following files to your desired parameters
 - .doxityrc
 - package.json
+
+## Load contracts
+copy solidity contracts to the contracts folder
 
 ## Build the docs
 
@@ -18,6 +23,7 @@ git clone https://www.github.com/ryanhendricks/doxity-simpleton.git
 # install doxity dependencies
 cd doxity
 yarn
+# return to root dir
 cd ..
 # install project dependencies from root folder
 yarn
