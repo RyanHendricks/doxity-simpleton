@@ -1,0 +1,11 @@
+linkPrefix = ""
+name = "doxity-simpleton"
+version = "1.0.0"
+description = "Solidity Documentation"
+buildTime = 2017-11-27T18:50:27.395Z
+target = "doxity"
+src = "contracts/*"
+dir = "pages/docs"
+out = "docs"
+
+[interaction]

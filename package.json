@@ -1,0 +1,24 @@
+{
+  "name": "doxity-simpleton",
+  "version": "1.0.0",
+  "description": "Solidity Documentation",
+  "author": "yourname",
+  "main": "docs/index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs": "doxity build"
+  },
+  "dependencies": {
+    "@digix/doxity": "^0.5.2",
+    "bs58check": "^2.1.0",
+    "ethereumjs-testrpc": "^6.0.3",
+    "ethereumjs-util": "^5.1.2",
+    "solium": "^1.0.7",
+    "truffle": "^4.0.1",
+    "vorpal": "^1.12.0",
+    "web3": "1.0.0-beta.18",
+    "zeppelin-solidity": "^1.4.0"
+  }
+}
