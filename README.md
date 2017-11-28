@@ -8,12 +8,24 @@ Additional assistance in this fix was gleaned from [ProjectWyvern](https://githu
 
 ## Getting Started
 
-edit the following files to your desired parameters
-- .doxityrc
-- package.json
 
-## Load contracts
-copy solidity contracts to the contracts folder
+### Edit the following files to match your Github Repo to use Github Pages
+
+- .doxityrc - no changes needed if you plan to use master branch /docs folder for github pages
+- /doxity/config.toml - "linkPrefix = "/doxity-simpleton"" must match your Github Repo
+- package.json - the following fields must match your Github Repo to use Github Pages
+```
+"author": "Ryan Hendricks",
+"main": "docs/index.html",
+"repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/repo.git"
+  },
+"homepage": "https://github.com/RyanHendricks/doxity-simpleton/",
+```
+
+## Add Contracts
+Copy solidity contracts to the contracts folder
 
 ## Build the docs
 
@@ -21,7 +33,7 @@ copy solidity contracts to the contracts folder
 # clone this repo
 git clone https://www.github.com/ryanhendricks/doxity-simpleton.git
 # install doxity dependencies
-cd doxity
+cd doxity-simpleton/doxity
 yarn
 # return to root dir
 cd ..
@@ -30,6 +42,11 @@ yarn
 # build the docs
 doxity build
 ```
+
+## Push your files to Github and Docs should now be available via Github Pages
+
+
+
 
 
 For a more in depth look at how this works and for additional commands please see: [Original Readme](https://github.com/DigixGlobal/doxity/blob/master/README.md)

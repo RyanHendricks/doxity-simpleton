@@ -1,11 +1,13 @@
-linkPrefix = ""
+linkPrefix = "/doxity-simpleton"
 name = "doxity-simpleton"
 version = "1.0.0"
 description = "Solidity Documentation"
-buildTime = 2017-11-27T18:50:27.395Z
+buildTime = 2017-12-01T22:54:04.573Z
 target = "doxity"
 src = "contracts/*"
 dir = "pages/docs"
 out = "docs"
+author = "Ryan Hendricks"
+homepage = "https://ryanhendricks.github.io/doxity-simpleton/"
 
 [interaction]

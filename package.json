@@ -2,11 +2,16 @@
   "name": "doxity-simpleton",
   "version": "1.0.0",
   "description": "Solidity Documentation",
-  "author": "yourname",
+  "author": "Ryan Hendricks",
   "main": "docs/index.html",
   "directories": {
     "doc": "docs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanhendricks/doxitysimpleton.git"
+  },
+  "homepage": "https://ryanhendricks.github.io/doxity-simpleton/", 
   "scripts": {
     "docs": "doxity build"
   },
