@@ -21,7 +21,7 @@ copy solidity contracts to the contracts folder
 # clone this repo
 git clone https://www.github.com/ryanhendricks/doxity-simpleton.git
 # install doxity dependencies
-cd doxity
+cd doxity-simpleton/doxity
 yarn
 # return to root dir
 cd ..
