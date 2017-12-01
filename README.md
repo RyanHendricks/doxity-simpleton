@@ -31,6 +31,13 @@ yarn
 doxity build
 ```
 
+```
+"repository": {
+    "type": "git",
+    "url": "git+https://github.com/TokenBnk/protocol.git"
+  },
+"homepage": "https://tokenbnk.github.io/protocol/",
+```
 
 For a more in depth look at how this works and for additional commands please see: [Original Readme](https://github.com/DigixGlobal/doxity/blob/master/README.md)
 
