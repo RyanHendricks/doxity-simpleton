@@ -1,6 +1,6 @@
 ### Node ###
-
-/docs
+yarn.lock
+/doxity/yarn.lock
 
 # Logs
 logs

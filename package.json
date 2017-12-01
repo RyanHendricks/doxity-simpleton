@@ -7,6 +7,11 @@
   "directories": {
     "doc": "docs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanhendricks/doxitysimpleton.git"
+  },
+  "homepage": "https://tokenbnk.github.io/protocol/", 
   "scripts": {
     "docs": "doxity build"
   },
