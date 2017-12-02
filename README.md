@@ -8,6 +8,11 @@ Additional assistance in this fix was gleaned from [ProjectWyvern](https://githu
 
 ## Getting Started
 
+### Clone (or Fork) this repo
+
+```
+git clone https://www.github.com/ryanhendricks/doxity-simpleton.git
+```
 
 ### Edit the following files to match your Github Repo to use Github Pages
 
@@ -25,13 +30,12 @@ Additional assistance in this fix was gleaned from [ProjectWyvern](https://githu
 ```
 
 ## Add Contracts
+
 Copy solidity contracts to the contracts folder
 
 ## Build the docs
 
 ```bash
-# clone this repo
-git clone https://www.github.com/ryanhendricks/doxity-simpleton.git
 # install doxity dependencies
 cd doxity-simpleton/doxity
 yarn
